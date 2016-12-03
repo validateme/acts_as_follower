@@ -20,7 +20,7 @@ module ActsAsFollower
     attr_accessor :custom_parent_classes
 
     def initialize
-      @custom_parent_classes = []
+      @custom_parent_classes = [User, Recipes, Flavors]
     end
   end
 
